@@ -26,5 +26,9 @@ Why would you want to use a branch other than the default master?
         and pull/fork/clone/and push it to the master one when ready....
 
 Give an example for when you would use git merge and give an example for when it would be better to submit a pull request to have your branch merged
-        -
-What command do you use to send all of the work that you've done locally to your remote repository?  b;aasdakldkandklandal
+        -An example to use git for merge would be working in multiple files in one folder like working in a css folder with a reset.css and style.css files. After add and commit it would be easy to merge those files into the dedicated css folder.
+        -An example to use git for a pull would be working with multiple people on a
+        project, after people or yourself added changes you can use git remote add upstream personurlofgithub (basically can get the latest)
+        or git remove -v to pull the latest changes to your terminal.
+What command do you use to send all of the work that you've done locally to your remote repository?  
+        -git push origin githubremoterepositorynameormaster
